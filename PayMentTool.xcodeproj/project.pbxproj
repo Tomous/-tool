@@ -15,6 +15,8 @@
 		80F5032B22E959B700F5BDD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F5032A22E959B700F5BDD2 /* main.m */; };
 		80F5033522E959B700F5BDD2 /* PayMentToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F5033422E959B700F5BDD2 /* PayMentToolTests.m */; };
 		80F5034022E959B800F5BDD2 /* PayMentToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F5033F22E959B800F5BDD2 /* PayMentToolUITests.m */; };
+		80F5034F22E959FB00F5BDD2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F5034E22E959FB00F5BDD2 /* UIView+Extension.m */; };
+		80F5035222E95A3A00F5BDD2 /* PaymentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F5035122E95A3A00F5BDD2 /* PaymentTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		80F5033B22E959B800F5BDD2 /* PayMentToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMentToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F5033F22E959B800F5BDD2 /* PayMentToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayMentToolUITests.m; sourceTree = "<group>"; };
 		80F5034122E959B800F5BDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F5034D22E959FB00F5BDD2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		80F5034E22E959FB00F5BDD2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		80F5035022E95A3A00F5BDD2 /* PaymentTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentTool.h; sourceTree = "<group>"; };
+		80F5035122E95A3A00F5BDD2 /* PaymentTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				80F5031C22E959B500F5BDD2 /* AppDelegate.m */,
 				80F5031E22E959B500F5BDD2 /* ViewController.h */,
 				80F5031F22E959B500F5BDD2 /* ViewController.m */,
+				80F5035022E95A3A00F5BDD2 /* PaymentTool.h */,
+				80F5035122E95A3A00F5BDD2 /* PaymentTool.m */,
+				80F5034D22E959FB00F5BDD2 /* UIView+Extension.h */,
+				80F5034E22E959FB00F5BDD2 /* UIView+Extension.m */,
 				80F5032122E959B500F5BDD2 /* Main.storyboard */,
 				80F5032422E959B700F5BDD2 /* Assets.xcassets */,
 				80F5032622E959B700F5BDD2 /* LaunchScreen.storyboard */,
@@ -264,7 +274,9 @@
 			files = (
 				80F5032022E959B500F5BDD2 /* ViewController.m in Sources */,
 				80F5032B22E959B700F5BDD2 /* main.m in Sources */,
+				80F5034F22E959FB00F5BDD2 /* UIView+Extension.m in Sources */,
 				80F5031D22E959B500F5BDD2 /* AppDelegate.m in Sources */,
+				80F5035222E95A3A00F5BDD2 /* PaymentTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
